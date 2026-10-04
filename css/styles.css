@@ -3,7 +3,9 @@ html {
   /* REM */
   font-size: 62.5%;
 }
-*, *:before, *:after {
+*, 
+*:before, 
+*:after {
   box-sizing: inherit;
 }
 
@@ -66,8 +68,11 @@ img{
 }
 
 .subtitulo {
-  color: #FFAA00;
   font-size: 2.5rem;
+}
+
+.text-amarillo {
+  color: #ffaa00;
 }
 
 .texto-blanco {
@@ -76,6 +81,10 @@ img{
 
 .texto-verde {
   color: #a3d9a5;
+}
+
+.texto-azul {
+  color: #003366
 }
 
 .btn-blanco {
@@ -87,6 +96,73 @@ img{
   padding: 10rem 0;
 }
 
-.texto-header p, h1, h2, div {
+.texto-header p, 
+h1, 
+h2, 
+div {
   margin: 4rem 0;
+}
+
+/** valores **/
+.valores {
+  background-color: #003366;
+  padding: 4rem 0;
+}
+
+.valores-contenido {
+  background-color: white;
+  border-radius: 1.6rem;
+  padding: 4rem;
+  flex-basis: calc(33% - 1rem)
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-between;
+}
+
+.no-margen {
+  margin: 0;
+}
+
+.sobre-nosotros {
+  display: flex;
+}
+
+.sobre-nosotros div {
+  padding: 0 2rem;
+  flex-basis: 50%
+}
+
+footer {
+  background-color: #003366
+}
+
+.container-superior {
+  color: white;
+  display: flex;
+}
+
+.container-superior div {
+  flex-basis: calc(30% - 2rem)
+}
+
+.footer-enlaces {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-enlaces a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-inferior {
+  color: white;
+  border-top: solid white 0.1rem;
+  padding: 2rem 0;
+}
+
+.color-inferior p {
+  text-align: center;
 }
